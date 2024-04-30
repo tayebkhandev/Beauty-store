@@ -1,0 +1,485 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* <!-- %%%%%%%%%%%%%% utility classes %%%%%%%%%%%%%%% --> */
+
+/* font-family: 'Great Vibes'; */
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bg-color {
+    background-color: #fef4ec;
+}
+
+button.btn {
+    padding: 12px 40px;
+    border: none;
+    background: rgb(35, 35, 34);
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+button.item-footer-btn {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #fef4ec;
+    color: #d5d4d4;
+    border: none;
+    text-transform: capitalize;
+
+    font-size: 12px;
+}
+
+button.item-footer-btn-2 {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #fef4ec;
+    color: #474444;
+    border: none;
+    margin-left: -30px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.heading {
+    font-size: 40px;
+    font-family: "Myriad Pro";
+    color: rgb(35, 35, 34);
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* <!-- %%%%%%%%%%%%%% utility classes  End %%%%%%%%%%%%%%% --> */
+
+/* <!-- %%%%%%%%%%%%%% section navabar %%%%%%%%%%%%%%% --> */
+.navabar {
+    background-color: #fef4ec;
+}
+
+.navabar .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 16px;
+}
+
+.navabar .nav .nava-item .fa-solid {
+    padding: 0px 0.9em;
+}
+
+/* <!-- %%%%%%%%%%%%%% section navabar End %%%%%%%%%%%%%%% --> */
+
+/* <!-- %%%%%%%%%%%%%% section banner %%%%%%%%%%%%%%% --> */
+.banner {
+    background-image: url(image/392840-PCEZ12-949.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px 0px;
+}
+
+.banner .banner-heading {
+    width: 50%;
+    margin: auto;
+}
+
+.banner .banner-heading>h2 {
+    font-family: 'Great Vibes';
+    font-size: 68px;
+    color: rgb(103 103 102 / 97%);
+    line-height: 0.97;
+    font-weight: 400;
+}
+
+.banner .banner-heading .banner-paragh {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    width: 432px;
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: none;
+    border-radius: 5px;
+}
+
+/* <!-- %%%%%%%%%%%%%% section our Products %%%%%%%%%%%%%%% --> */
+.products {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.products .container {
+    text-align: center;
+}
+
+.products .container p.product-paragh {
+    font-size: 12px;
+    color: rgb(35, 35, 34);
+    padding-bottom: 20px;
+}
+
+.product-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.items {
+    border: 1px solid #000;
+    margin: 12px auto;
+    flex: 0 0 24%;
+}
+
+.items>h4 {
+    font-size: 10px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.items>p {
+    font-size: 10px;
+    padding: 0px 60px 25px 60px;
+}
+
+.item-footer {
+    background-color: #000;
+    /* width: 100%; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+.products .container .button-product {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* fef4ec */
+/* 
+    background-color: rgb(254, 244, 236); 
+    width: 1977px;
+    height: 723px;
+ */
+.about-beauty-store {
+    background-color: rgb(254, 244, 236);
+}
+
+.about-beauty-store .container .main-about {
+    display: flex;
+    padding: 60px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-beauty-store .container .main-about .about-left {
+    width: 49%;
+}
+
+.about-beauty-store .container .main-about .about-right {
+    width: 49%;
+}
+
+.about-beauty-store .container .main-about .about-left .about-heading {
+    padding: 20px 80px;
+}
+
+.about-beauty-store .container .main-about .about-left .about-heading>p {
+    font-size: 10px;
+    padding: 15px px;
+    padding: 15px 0px;
+    line-height: 1.6;
+}
+
+.about-beauty-store .container .main-about .about-left .about-heading>h3 {
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 29px;
+    text-transform: capitalize;
+}
+
+.about-right-img{
+    object-fit: none;
+}
+
+
+.customers-says {
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+.main-customer {
+    width: 100%;
+    margin: 30px 0px;
+}
+.customer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background: bisque;
+    align-items: center;
+}
+.customers-says .container .main-customer .customer{
+    border: none;
+    width: 70%;
+    height: 180px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px #aaaaaa;  
+    display: flex;
+    align-items: center;
+}
+.customer-left {
+    margin: 0px 20px;
+}
+.customer-left-circle {
+    background: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(254, 244, 236);
+}
+.customer-left-circle-image {
+        max-width: 72x;
+        height: 80px;
+        object-fit: cover;
+        margin: 10px 12px;
+}
+.customers-says .container .main-customer .customer .customer-right>h5{
+    font-size: 14px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.customers-says .container .main-customer .customer .customer-right>p {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.customer-say-icone{
+    text-align: center;
+    padding: 30px 0px;
+}
+.customer-say-icone-solid {
+    text-align: center;
+    padding: 12px 0px;
+    font-weight: 900;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #474444;
+}
+
+
+.contact-form{
+    padding-top: 0px;
+    padding-bottom: 32px;
+}
+.container-two{
+    width: 70%;
+    margin: auto;
+}
+.contact-form .container-two .main-contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-left{
+    flex: 0 0 48%;
+}
+.contact-right{
+    flex: 0 0 48%;
+}
+.contact-heading>h2{
+font-weight: 800;
+text-transform: capitalize;
+padding: 14px 38px;
+}
+.contact-heading>p{
+    font-size: 12px;
+    padding: 0px 38px;
+}
+.btn-color{
+    padding: 12px 50px;
+    border: none;
+    background-color: #fef4ec;
+    color: #000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.map{
+    padding-top: 32px;
+}
+
+.contact-us{
+    background-color: #000;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #fef4ec;
+}
+.contact-us .main-contact-us{
+    display: flex;
+    padding-bottom: 32px;
+}
+.contact-us .main-contact-us .contact-us-heading{
+    flex: 0 0 30%;
+}
+.contact-us .main-contact-us .contact-us-heading>h1{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.contact-us .main-contact-us .contact-us-heading>p{
+    text-align: center;
+    font-size: 11px;
+}
+.contact-us-icone{
+    padding: 5px 10px;
+}
+.contact-heading-beautifile{
+    padding: 5px 30px;
+}
+.contant-us-heading-last {
+    padding: 5px 75px;
+}
+iframe {
+    width: 100%;
+}
+.prepared{
+    background-color: rgb(254, 244, 236);
+    text-align: center;
+    color: #000;
+    border-radius: 10px;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .items {
+        flex: 0 0 32%;
+    }
+    .last-item{
+        display: none;
+    }
+    .customers-says .container .main-customer .customer {
+        height: 109px;
+    }
+    button.btn{
+        margin-bottom: 14px;
+    }
+  button.item-footer-btn-2 {
+    padding: 3px 8px;
+    margin-left: -12px;
+}
+.contact-heading-beautifile {
+    padding: 0px 0px;
+}
+.contact-us .main-contact-us .contact-us-heading>h1 {
+    font-size: 17px;
+}
+
+.contact-us .main-contact-us .contact-us-heading>p {
+    font-size: 9px;
+}
+.contant-us-heading-last {
+    padding: -2px 35px;
+    padding: 2px 44px;
+}
+}
+
+@media screen and (min-width: 786px)
+   { .about-right-img {
+    max-width: 100%; 
+     height: 300px; 
+   object-fit: none;
+
+}
+}
+
+@media screen and (max-width: 320px){
+
+.banner .banner-heading .banner-paragh {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    width: 432px;
+    font-size: 12px;
+    display: none;
+}
+.banner .banner-heading>h2 {
+    font-size: 30px;
+}
+button.btn {
+    padding: 5px 23px;
+    font-size: 6px;
+}
+.products .container p.product-paragh {
+    font-size: 8px;
+}
+.items {
+    flex: 0 0 91%;
+}
+.about-beauty-store .container .main-about {
+    display: block;
+}
+.about-beauty-store .container .main-about .about-left {
+    width: 100%;
+}
+.about-right-img {
+    width: 100%;
+    object-fit: none;
+}
+.about-beauty-store .container .main-about .about-left .about-heading {
+    padding: 15px 14px;
+    order: 0;
+}
+.about-beauty-store .container .main-about .about-right {
+    width: 100%;
+}
+.heading {
+    font-size: 19px;
+}
+.customers-says .container .main-customer .customer {
+    height: 109px;
+    width: 94%;
+}
+.contact-form .container-two .main-contact {
+    display: block;
+    text-align: center;
+}
+.customer-left {
+    margin: 0px 0px;
+}
+.btn-color {
+    padding: 5px 18px;
+}
+.contact-us .main-contact-us {
+    display: block;
+}
+.contact-us .main-contact-us .contact-us-heading>h1 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+}
